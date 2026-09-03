@@ -1,0 +1,40 @@
+# datasets
+data/RadioMapSeer/
+
+# runtime outputs
+outputs/*
+!outputs/README.md
+
+# checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# generated arrays
+*.npy
+*.npz
+
+# experiment outputs
+*.csv
+*.log
+
+# generated figures and documents
+*.png
+*.pdf
+
+# cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# temporary
+tmp/
+temp/

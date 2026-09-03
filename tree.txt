@@ -1,0 +1,51 @@
+anonymous-v2i-dt/
+|-- .gitignore
+|-- ANONYMIZATION_REPORT.md
+|-- LICENSE
+|-- README.md
+|-- environment.yml
+|-- requirements.txt
+|-- tree.txt
+|-- configs/
+|   |-- dataset.yaml
+|   |-- decision.yaml
+|   |-- predict_kpi.yaml
+|   |-- predict_pl.yaml
+|   |-- train_kpi.yaml
+|   `-- train_pl.yaml
+|-- data/
+|   `-- README.md
+|-- docs/
+|   `-- reproduction.md
+|-- outputs/
+|   `-- README.md
+|-- scripts/
+|   |-- predict_kpi.sh
+|   |-- predict_pl.sh
+|   |-- prepare_dataset.sh
+|   |-- run_decision.sh
+|   |-- train_kpi.sh
+|   `-- train_pl.sh
+`-- src/
+    |-- __init__.py
+    |-- data/
+    |   |-- __init__.py
+    |   `-- dataset_preparation.py
+    |-- decision/
+    |   |-- __init__.py
+    |   `-- decision.py
+    |-- inference/
+    |   |-- __init__.py
+    |   `-- predict.py
+    |-- models/
+    |   |-- __init__.py
+    |   `-- cpfl_models.py
+    |-- training/
+    |   |-- __init__.py
+    |   `-- train_cpfl.py
+    `-- utils/
+        |-- __init__.py
+        |-- io_utils.py
+        |-- metrics.py
+        |-- visualization.py
+        `-- wireless_utils.py

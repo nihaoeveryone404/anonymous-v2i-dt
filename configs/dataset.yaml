@@ -1,0 +1,28 @@
+root_path: data/RadioMapSeer
+output_dir: outputs/dataset
+total_cities: 12
+k_core: 16
+extra_k32: 2
+random_seed: 0
+core_models:
+  - carsIRT2
+  - carsDPM
+ablation_models:
+  - carsIRT4
+los_stride: 2
+los_sigma: 1.0
+test_ratio: 0.2
+bandwidth_hz: 10000000
+tx_power_dbm: 23.0
+noise_psd_dbm_per_hz: -174.0
+noise_figure_db: 5.0
+interference_coeff: 1.0
+alpha: 1.0
+beta: 1.0
+conf_nlos: 0.5
+req_rate_per_user_mbps: 0.2
+avg_file_size_mb: 2.0
+util_cap: 0.98
+delay_cap_s: 10.0
+ue_weight_mode: dilate
+ue_dilate_radius: 1
