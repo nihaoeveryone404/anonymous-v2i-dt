@@ -1,0 +1,15 @@
+extends: v2x_common.yaml
+v2x_align_neural_start: false
+v2x_methods: [random, mappo, memory, full]
+llm_backend: qwen
+model_path: data/models/Qwen_Qwen3.5-9B-Q4_K_M.gguf
+llm_gpu_layers: 0
+allow_template_fallback: false
+memory_every: 250
+memory_dim: 64
+top_k: 3
+memory_action_strength: 0.2
+v2x_llm_reward_coef: 0.8
+risk_coef: 0.08
+risk_warmup_episodes: 100
+output: outputs/v2x_main/results.xlsx

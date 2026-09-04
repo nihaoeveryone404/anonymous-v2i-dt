@@ -1,0 +1,15 @@
+extends: v2x_common.yaml
+v2x_align_neural_start: false
+# The inherited V2X IPPO label has a centralized critic; see protocol_notes.md.
+methods: [iql, vdn, qmix, ippo]
+hidden: 192
+v2x_llm_reward_coef: 0.0
+v2x_macro_actions: 18
+batch_size: 256
+replay_size: 80000
+target_update: 25
+train_after: 64
+train_steps: 6
+eps_end: 0.05
+eps_decay_episodes: 500
+output: outputs/v2x_baselines/results.xlsx

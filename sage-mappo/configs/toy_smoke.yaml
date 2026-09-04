@@ -1,0 +1,11 @@
+episodes: 3
+episode_len: 4
+num_agents: 4
+seed: 7
+llm_backend: template
+llm_every: 1
+llm_gpu_layers: 0
+allow_template_fallback: false
+device: cpu
+torch_threads: 1
+output_dir: outputs/toy_smoke

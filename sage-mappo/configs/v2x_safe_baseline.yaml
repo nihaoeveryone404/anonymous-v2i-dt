@@ -1,0 +1,9 @@
+extends: v2x_common.yaml
+# This runner has no common-start evaluation option.
+output_dir: outputs/v2x_safe_baseline
+hidden: 192
+lagrangian_cost_limit: 0.005
+lagrangian_lr: 0.2
+lagrangian_init: 0.0
+lagrangian_max: 20.0
+lagrangian_warmup_episodes: 50

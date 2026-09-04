@@ -1,0 +1,11 @@
+extends: v2x_main.yaml
+episodes: 3
+episode_len: 3
+seeds: [7]
+v2x_methods: [mappo, full]
+llm_backend: template
+memory_every: 1
+risk_warmup_episodes: 0
+ppo_epochs: 1
+progress_every: 1
+output: outputs/smoke/main.xlsx

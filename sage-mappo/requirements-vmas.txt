@@ -1,0 +1,2 @@
+# Optional navigation benchmark; not required for V2X.
+vmas==1.5.2

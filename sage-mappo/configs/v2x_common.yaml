@@ -1,0 +1,26 @@
+# Shared simulator, horizon, seeds, and resource reward for V2X presets.
+domains: [v2x]
+episodes: 1000
+episode_len: 8
+seeds: [7, 42, 123, 2026, 3407]
+device: cpu
+torch_threads: 1
+v2x_env: src/msage_mappo/envs/v2x.py
+progress_every: 100
+lr: 0.0007
+ppo_epochs: 5
+entropy_coef: 0.004
+v2x_reward_mode: resource
+v2x_reward_scale: 1.0
+v2x_delay_report_scale: 0.5
+v2x_deadline_ms: 50.0
+v2x_delay_budget_ms: 120.0
+v2x_reward_shift: 0.2
+v2x_latency_weight: 0.6
+v2x_deadline_weight: 0.5
+v2x_power_weight: 2.2
+v2x_packet_balance_weight: 2.4
+v2x_risk_penalty: 0.25
+v2x_trend_bonus_weight: 1.4
+v2x_trend_penalty_weight: 0.2
+v2x_packet_soft_limit: 4.0

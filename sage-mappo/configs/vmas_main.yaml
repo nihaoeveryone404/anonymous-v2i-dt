@@ -1,0 +1,17 @@
+# Optional benchmark. Install requirements-vmas.txt first.
+domains: [vmas]
+episodes: 1000
+episode_len: 20
+seeds: [7, 42, 123, 2026, 3407]
+device: cpu
+torch_threads: 1
+vmas_scenario: navigation
+vmas_agents: 3
+vmas_methods: [random, mappo, memory, full]
+llm_backend: qwen
+model_path: data/models/Qwen_Qwen3.5-9B-Q4_K_M.gguf
+llm_gpu_layers: 0
+allow_template_fallback: false
+memory_every: 250
+progress_every: 100
+output: outputs/vmas_main/results.xlsx

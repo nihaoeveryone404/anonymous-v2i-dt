@@ -1,0 +1,2 @@
+# Optional local GGUF backend. Install a platform-appropriate build.
+llama-cpp-python>=0.3,<0.4

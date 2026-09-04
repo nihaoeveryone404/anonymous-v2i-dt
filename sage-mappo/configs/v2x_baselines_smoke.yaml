@@ -1,0 +1,12 @@
+extends: v2x_baselines.yaml
+episodes: 3
+episode_len: 3
+seeds: [7]
+batch_size: 4
+train_after: 4
+train_steps: 1
+hidden: 32
+ppo_epochs: 1
+target_update: 2
+progress_every: 1
+output: outputs/smoke/baselines.xlsx

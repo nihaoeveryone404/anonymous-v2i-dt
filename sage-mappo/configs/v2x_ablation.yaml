@@ -1,0 +1,3 @@
+extends: v2x_main.yaml
+v2x_methods: [full, prior_only, memory_no_refine, random_memory]
+output: outputs/v2x_ablation/results.xlsx

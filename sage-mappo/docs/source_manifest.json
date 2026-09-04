@@ -1,0 +1,115 @@
+{
+  "source_files": [
+    {
+      "path": "src/msage_mappo/__init__.py",
+      "sha256": "bc726ebb6464d56ebb9d90060693c135ebbb160f59da638948a24fd83f56881c"
+    },
+    {
+      "path": "src/msage_mappo/agent.py",
+      "sha256": "70d3e7efe465a760b92007314fdc4aa63b96189bd94340df3b3b9660b7686eca"
+    },
+    {
+      "path": "src/msage_mappo/embedding.py",
+      "sha256": "3e5a574cf20f62494fb9578669364ad6b263246509bedabe5fc1903444f2411d"
+    },
+    {
+      "path": "src/msage_mappo/llm_writer.py",
+      "sha256": "1801c40da2e8e349c1f3bca7b7d79f2b7d0a4d0fd043a0b502a4103f78a7dd64"
+    },
+    {
+      "path": "src/msage_mappo/memory.py",
+      "sha256": "61df6c1cb1745d7d53ad8629e803aeb7091ce7461202afd967e3ec9e0698b36b"
+    },
+    {
+      "path": "src/msage_mappo/envs.py",
+      "sha256": "edc405300065293d0386d784fd978b3add53197a92aebbf5fe90ef6a50010a01"
+    },
+    {
+      "path": "submission_package/external/v2x_env/new.py",
+      "sha256": "ab08da0848bcbec9048ecbc8ff04338faac07a70b4ea9520a90bfaac489d8806"
+    },
+    {
+      "path": "scripts/run_full_experiments.py",
+      "sha256": "03f80917db027c19ddad8041675e7751e45c48158927467cde1784ef1e3509a3"
+    },
+    {
+      "path": "scripts/run_additional_baselines.py",
+      "sha256": "f92f046353c3cd6eab044cabb166b7ae1e05bbe8fb2b2e331709fed15e895982"
+    },
+    {
+      "path": "scripts/train_toy_v2x.py",
+      "sha256": "5585f915f49f3d73c6ed1ffb788de592dc6a8a13cb42c37679e4f17954cccb46"
+    },
+    {
+      "path": "scripts/run_v2x_safe_baseline.py",
+      "sha256": "fe6f50510ee41fdc2bb382e2dd6791ca010856e163885efbd6b5e75fca3fba8a"
+    }
+  ],
+  "preserved_symbols": [
+    {
+      "target": "src/msage_mappo/envs/v2x.py",
+      "symbol": "set_seed",
+      "ast_sha256": "c7d9432e8220313e2c6e6226020f647c6185b66e51fab2131f0904897f50c2a5"
+    },
+    {
+      "target": "src/msage_mappo/envs/v2x.py",
+      "symbol": "VehicleToBSEnv",
+      "ast_sha256": "4e7f9168a9af24d069f665dc19c893ed529428cece53d1d99b40e18c7876602c"
+    },
+    {
+      "target": "src/msage_mappo/models/v2x.py",
+      "symbol": "V2XActor",
+      "ast_sha256": "e2be8a0ebe0ee9e8ef864feb69eba83fc985f8f33c270c32fb63fb4f0cfe3df5"
+    },
+    {
+      "target": "src/msage_mappo/models/v2x.py",
+      "symbol": "V2XCritic",
+      "ast_sha256": "87ae77a19beb736400fb979a5afc970913046313d5f5c285e3b05b888193eab9"
+    },
+    {
+      "target": "src/msage_mappo/models/v2x.py",
+      "symbol": "V2XLagrangianCritic",
+      "ast_sha256": "1e1669ef42ab949e573a822b736d2ec198bb838b6cd2cde761e1deec0e08df24"
+    },
+    {
+      "target": "src/msage_mappo/models/vmas.py",
+      "symbol": "VMASActor",
+      "ast_sha256": "b32292f4520956fbdccb25b174f25dcab97aa4e09a8dfeaccf1ac092ee03dd2e"
+    },
+    {
+      "target": "src/msage_mappo/models/vmas.py",
+      "symbol": "VMASCritic",
+      "ast_sha256": "dc70665938d395db5d2293397c3b15964f10fa0596f6ba2d19af063e14ebad35"
+    },
+    {
+      "target": "src/msage_mappo/training/settings.py",
+      "symbol": "TrainConfig",
+      "ast_sha256": "c8ee9dec3713ed189cb360cc699a31cc3e9311200702031c09dac2f4856e0da4"
+    },
+    {
+      "target": "src/msage_mappo/rewards/v2x.py",
+      "symbol": "v2x_llm_guidance_bonus",
+      "ast_sha256": "400058a169ae53db1b3de75df9dbb108013ce28cbe935e6ab7f5d1d3bb8fb192"
+    },
+    {
+      "target": "src/msage_mappo/rewards/v2x.py",
+      "symbol": "v2x_risk",
+      "ast_sha256": "25087599024af331950c723080ee629949e9bfeee91faf71810e0e85853bcc0d"
+    },
+    {
+      "target": "src/msage_mappo/rewards/v2x.py",
+      "symbol": "v2x_reward_from_info",
+      "ast_sha256": "388a0229fdae0df488a334c01b7dba5ab35ccc2767d8979a997e74af0c0c88e3"
+    },
+    {
+      "target": "src/msage_mappo/models/value_decomposition.py",
+      "symbol": "QNet",
+      "ast_sha256": "8f88fe1d59fbb74d4afc6ff6d8ac79f0ca79b365d062d4c273bbbfa55fad9992"
+    },
+    {
+      "target": "src/msage_mappo/models/value_decomposition.py",
+      "symbol": "QMixer",
+      "ast_sha256": "4772974402771c0d038053ebfbe4adaa126a9ce37394ef674d840c68e6f4b335"
+    }
+  ]
+}
